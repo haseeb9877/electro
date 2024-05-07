@@ -1,0 +1,279 @@
+
+@media screen and (max-width: 1013px) {
+    .red-cir-div{
+        width: 55%;
+    }
+    .electro-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .search-parent-div {
+        width: 80%;
+    }
+
+    .wish-div-parent {
+        width: 60%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menu-div {
+        display: block;
+    }
+
+    .head-ul {
+        display: none;
+    }
+}
+@media screen and (max-width: 860px) {
+    .foot1-sub-ch{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ch1-p {
+        width: 45%;
+        margin-top: 20px;
+    }
+
+    .product-heading-div {
+        width: 100%;
+    }
+
+    .prod-ul {
+        display: flex;
+        justify-content: flex-start;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .prod-slider-ch {
+        width: 400%;
+    }
+
+    .slider-ch1 {
+        animation: first-slider 16s ease-in infinite;
+        width: 12%;
+    }
+    .email-input1{
+        width: 50%;
+    }
+   
+   
+
+    @keyframes first-slider {
+        0% {
+            margin-left: 0%;
+        }
+
+        8% {
+            margin-left: -25%;
+        }
+
+        16% {
+            margin-left: -25%
+        }
+
+        24% {
+            margin-left: -50%;
+        }
+
+        32% {
+            margin-left: -50%;
+        }
+
+        40% {
+            margin-left: -75%;
+        }
+
+        48% {
+            margin-left: -75%;
+        }
+
+        56% {
+            margin-left: -100%;
+        }
+
+        64% {
+            margin-left: -100%;
+        }
+
+        72% {
+            margin-left: -125%;
+        }
+
+        80% {
+            margin-left: -125%;
+
+        }
+
+        88% {
+            margin-left: -150%;
+        }
+
+        100% {
+            margin-left: -150%;
+        }
+
+
+    }
+    .small-slider-ch1{
+        width: 50%;
+
+    }
+    .med-mar{
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 635px) {
+        .parent-icons {
+            left: 40px;
+            top: 40px;
+
+        }
+
+        .nav1 {
+            height: 70px;
+        }
+        .email-input1{
+            width: 60%;
+        }
+    }
+
+    @media screen and (max-width: 519px) {
+        .nav1 {
+            height: 100px;
+            width: 100%;
+        }
+
+        .parent-icons {
+            top: 50px;
+            left: 47px;
+        }
+
+        .nav1-ch3 {
+            margin-left: 47px;
+
+
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        .ch1-p {
+            width: 100%;
+        }
+
+
+        .slider-ch1 {
+            animation: first-slider 16s ease-in infinite;
+            width: 12%;
+        }
+        .email-input1{
+            width: 70%;
+        }
+        .foot1-sub-ch{
+            width: 100%;
+        }
+        .med-mar{
+            margin-top: 20px;
+        }
+
+        .prod-slider-ch {
+            width: 800%;
+
+        }
+
+        @keyframes first-slider {
+            0% {
+                margin-left: 0%;
+            }
+
+            6% {
+                margin-left: 0%;
+            }
+
+            12% {
+                margin-left: -25%;
+            }
+
+            18% {
+                margin-left: -25%;
+            }
+
+            24% {
+                margin-left: -50%;
+            }
+
+            30% {
+                margin-left: -50%;
+            }
+
+            36% {
+                margin-left: -75%;
+            }
+
+            42% {
+                margin-left: -75%;
+            }
+
+            48% {
+                margin-left: -100%;
+            }
+
+            54% {
+                margin-left: -100%;
+            }
+
+            60% {
+                margin-left: -125%;
+            }
+
+            66% {
+                margin-left: -125%;
+            }
+
+            72% {
+                margin-left: -150%;
+            }
+
+            78% {
+                margin-left: -150%;
+            }
+
+            84% {
+                margin-left: -175%;
+            }
+
+            100% {
+                margin-left: -175%;
+            }
+        }
+        .small-slider-ch1{
+            width: 100%;
+    
+        }
+    }
+
+    @media screen and (max-width: 346px) {
+        .nav1 {
+            height: 120px;
+            width: 100%;
+        }
+
+        .catog-div {
+            width: 350px;
+        }
+
+        .parent-icons {
+            top: 80px;
+            left: 47px;
+        }
+
+        .nav1-ch2 {
+            margin-left: 47px;
+        }
+    }
+}
